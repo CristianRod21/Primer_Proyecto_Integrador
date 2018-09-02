@@ -290,7 +290,7 @@ This file is intended to be loaded by Logisim http://logisim.altervista.org
 34 7*0 35 15*0 36 31*0 37 63*0
 38 127*0 39 255*0 30 511*0 3d 1023*0
 21 2047*0 2a 4095*0 2b 8191*0 28 16383*0
-5e 32767*0 2d 65535*0 2d 131071*0 29
+5e 32767*0 25 65535*0 2d 131071*0 29
 </a>
     </comp>
     <comp lib="0" loc="(180,170)" name="Pin">
