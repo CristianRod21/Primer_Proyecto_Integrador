@@ -77,10 +77,6 @@ This file is intended to be loaded by Logisim http://logisim.altervista.org
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
     <a name="clabelcolor" val="#000000"/>
-    <wire from="(270,170)" to="(280,170)"/>
-    <wire from="(280,170)" to="(280,270)"/>
-    <wire from="(270,270)" to="(280,270)"/>
-    <wire from="(270,160)" to="(270,170)"/>
     <wire from="(310,180)" to="(310,190)"/>
     <wire from="(350,180)" to="(350,200)"/>
     <wire from="(310,210)" to="(310,220)"/>
@@ -90,10 +86,8 @@ This file is intended to be loaded by Logisim http://logisim.altervista.org
     <wire from="(310,270)" to="(310,290)"/>
     <wire from="(240,290)" to="(310,290)"/>
     <wire from="(240,270)" to="(240,290)"/>
-    <wire from="(200,140)" to="(250,140)"/>
     <wire from="(350,270)" to="(350,300)"/>
     <wire from="(230,300)" to="(350,300)"/>
-    <wire from="(230,280)" to="(230,300)"/>
     <wire from="(220,290)" to="(220,310)"/>
     <wire from="(210,300)" to="(210,320)"/>
     <wire from="(200,310)" to="(200,330)"/>
@@ -110,7 +104,6 @@ This file is intended to be loaded by Logisim http://logisim.altervista.org
     <wire from="(140,310)" to="(200,310)"/>
     <wire from="(140,300)" to="(210,300)"/>
     <wire from="(140,290)" to="(220,290)"/>
-    <wire from="(140,280)" to="(230,280)"/>
     <wire from="(140,260)" to="(350,260)"/>
     <wire from="(140,250)" to="(310,250)"/>
     <wire from="(140,240)" to="(250,240)"/>
@@ -122,13 +115,10 @@ This file is intended to be loaded by Logisim http://logisim.altervista.org
     <wire from="(100,370)" to="(120,370)"/>
     <wire from="(220,310)" to="(410,310)"/>
     <wire from="(410,270)" to="(410,310)"/>
-    <wire from="(410,240)" to="(420,240)"/>
     <wire from="(420,240)" to="(420,320)"/>
     <wire from="(210,320)" to="(420,320)"/>
-    <wire from="(410,210)" to="(430,210)"/>
     <wire from="(430,210)" to="(430,330)"/>
     <wire from="(200,330)" to="(430,330)"/>
-    <wire from="(410,180)" to="(440,180)"/>
     <wire from="(440,180)" to="(440,340)"/>
     <wire from="(190,340)" to="(440,340)"/>
     <wire from="(470,270)" to="(470,350)"/>
@@ -142,21 +132,90 @@ This file is intended to be loaded by Logisim http://logisim.altervista.org
     <wire from="(470,180)" to="(500,180)"/>
     <wire from="(500,180)" to="(500,380)"/>
     <wire from="(150,380)" to="(500,380)"/>
-    <wire from="(240,150)" to="(250,150)"/>
     <wire from="(200,150)" to="(220,150)"/>
-    <wire from="(100,150)" to="(170,150)"/>
     <wire from="(100,150)" to="(100,370)"/>
-    <wire from="(240,150)" to="(240,160)"/>
-    <wire from="(200,160)" to="(240,160)"/>
     <wire from="(140,180)" to="(250,180)"/>
-    <wire from="(220,70)" to="(220,150)"/>
-    <wire from="(220,70)" to="(270,70)"/>
-    <wire from="(230,90)" to="(270,90)"/>
-    <wire from="(300,80)" to="(340,80)"/>
-    <wire from="(130,80)" to="(130,100)"/>
-    <wire from="(130,80)" to="(270,80)"/>
     <wire from="(140,270)" to="(240,270)"/>
-    <wire from="(230,90)" to="(230,280)"/>
+    <wire from="(200,140)" to="(250,140)"/>
+    <wire from="(270,160)" to="(270,170)"/>
+    <wire from="(230,170)" to="(230,300)"/>
+    <wire from="(280,160)" to="(290,160)"/>
+    <wire from="(280,160)" to="(280,270)"/>
+    <wire from="(410,240)" to="(420,240)"/>
+    <wire from="(410,210)" to="(430,210)"/>
+    <wire from="(410,180)" to="(440,180)"/>
+    <wire from="(220,50)" to="(220,150)"/>
+    <wire from="(350,60)" to="(400,60)"/>
+    <wire from="(220,50)" to="(320,50)"/>
+    <wire from="(270,270)" to="(280,270)"/>
+    <wire from="(290,160)" to="(500,160)"/>
+    <wire from="(500,40)" to="(500,160)"/>
+    <wire from="(310,40)" to="(500,40)"/>
+    <wire from="(310,40)" to="(310,70)"/>
+    <wire from="(310,70)" to="(320,70)"/>
+    <wire from="(250,100)" to="(260,100)"/>
+    <wire from="(280,120)" to="(280,130)"/>
+    <wire from="(250,100)" to="(250,140)"/>
+    <wire from="(240,170)" to="(270,170)"/>
+    <wire from="(230,170)" to="(240,170)"/>
+    <wire from="(240,80)" to="(240,170)"/>
+    <wire from="(100,150)" to="(170,150)"/>
+    <wire from="(260,110)" to="(260,160)"/>
+    <wire from="(240,80)" to="(320,80)"/>
+    <wire from="(210,160)" to="(210,170)"/>
+    <wire from="(200,160)" to="(210,160)"/>
+    <wire from="(210,160)" to="(260,160)"/>
+    <wire from="(140,170)" to="(210,170)"/>
+    <wire from="(140,70)" to="(140,170)"/>
+    <wire from="(140,70)" to="(150,70)"/>
+    <wire from="(130,50)" to="(150,50)"/>
+    <wire from="(180,60)" to="(320,60)"/>
+    <comp lib="5" loc="(310,210)" name="Button">
+      <a name="color" val="#ff5443"/>
+      <a name="label" val="5"/>
+      <a name="labelloc" val="center"/>
+    </comp>
+    <comp lib="5" loc="(350,240)" name="Button">
+      <a name="color" val="#ff5443"/>
+      <a name="label" val="9"/>
+      <a name="labelloc" val="center"/>
+    </comp>
+    <comp lib="5" loc="(350,180)" name="Button">
+      <a name="color" val="#ff5443"/>
+      <a name="label" val="3"/>
+      <a name="labelloc" val="center"/>
+    </comp>
+    <comp lib="5" loc="(270,270)" name="Button">
+      <a name="color" val="#ff0c19"/>
+      <a name="label" val="AC"/>
+      <a name="labelloc" val="center"/>
+      <a name="labelfont" val="SansSerif plain 11"/>
+    </comp>
+    <comp lib="1" loc="(280,130)" name="OR Gate">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="5" loc="(350,270)" name="Button">
+      <a name="color" val="#4e96ff"/>
+      <a name="label" val="="/>
+      <a name="labelloc" val="center"/>
+    </comp>
+    <comp lib="0" loc="(140,280)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp loc="(200,140)" name="AnalizadorTeclado"/>
+    <comp lib="1" loc="(180,60)" name="OR Gate"/>
+    <comp lib="0" loc="(120,370)" name="Splitter">
+      <a name="fanout" val="19"/>
+      <a name="incoming" val="19"/>
+    </comp>
+    <comp lib="5" loc="(410,210)" name="Button">
+      <a name="color" val="#4e96ff"/>
+      <a name="label" val="+"/>
+      <a name="labelloc" val="center"/>
+    </comp>
+    <comp lib="6" loc="(140,230)" name="Text"/>
+    <comp loc="(350,60)" name="MemoriaInstrucciones"/>
     <comp lib="5" loc="(250,210)" name="Button">
       <a name="facing" val="west"/>
       <a name="color" val="#ff5443"/>
@@ -169,49 +228,9 @@ This file is intended to be loaded by Logisim http://logisim.altervista.org
       <a name="label" val="1"/>
       <a name="labelloc" val="center"/>
     </comp>
-    <comp lib="5" loc="(310,240)" name="Button">
-      <a name="color" val="#ff5443"/>
-      <a name="label" val="8"/>
-      <a name="labelloc" val="center"/>
-    </comp>
-    <comp lib="5" loc="(410,270)" name="Button">
-      <a name="color" val="#4e96ff"/>
-      <a name="label" val="!"/>
-      <a name="labelloc" val="center"/>
-    </comp>
-    <comp lib="5" loc="(470,270)" name="Button">
-      <a name="color" val="#4e96ff"/>
-      <a name="label" val="x^y"/>
-      <a name="labelloc" val="center"/>
-      <a name="labelfont" val="SansSerif plain 10"/>
-    </comp>
-    <comp lib="5" loc="(410,240)" name="Button">
-      <a name="color" val="#4e96f0"/>
-      <a name="label" val="x"/>
-      <a name="labelloc" val="center"/>
-    </comp>
-    <comp lib="0" loc="(120,370)" name="Splitter">
-      <a name="fanout" val="19"/>
-      <a name="incoming" val="19"/>
-    </comp>
     <comp lib="5" loc="(310,270)" name="Button">
       <a name="color" val="#ff5443"/>
       <a name="label" val="0"/>
-      <a name="labelloc" val="center"/>
-    </comp>
-    <comp lib="5" loc="(310,210)" name="Button">
-      <a name="color" val="#ff5443"/>
-      <a name="label" val="5"/>
-      <a name="labelloc" val="center"/>
-    </comp>
-    <comp lib="5" loc="(410,180)" name="Button">
-      <a name="color" val="#4e96ff"/>
-      <a name="label" val="("/>
-      <a name="labelloc" val="center"/>
-    </comp>
-    <comp lib="5" loc="(470,240)" name="Button">
-      <a name="color" val="#4e96ff"/>
-      <a name="label" val="%"/>
       <a name="labelloc" val="center"/>
     </comp>
     <comp lib="5" loc="(310,180)" name="Button">
@@ -219,9 +238,9 @@ This file is intended to be loaded by Logisim http://logisim.altervista.org
       <a name="label" val="2"/>
       <a name="labelloc" val="center"/>
     </comp>
-    <comp lib="5" loc="(350,240)" name="Button">
-      <a name="color" val="#ff5443"/>
-      <a name="label" val="9"/>
+    <comp lib="5" loc="(470,240)" name="Button">
+      <a name="color" val="#4e96ff"/>
+      <a name="label" val="%"/>
       <a name="labelloc" val="center"/>
     </comp>
     <comp lib="5" loc="(350,210)" name="Button">
@@ -229,56 +248,58 @@ This file is intended to be loaded by Logisim http://logisim.altervista.org
       <a name="label" val="6"/>
       <a name="labelloc" val="center"/>
     </comp>
+    <comp lib="0" loc="(130,50)" name="Clock"/>
     <comp lib="5" loc="(250,240)" name="Button">
       <a name="facing" val="west"/>
       <a name="color" val="#ff5443"/>
       <a name="label" val="7"/>
       <a name="labelloc" val="center"/>
     </comp>
-    <comp lib="0" loc="(340,80)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="7"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(130,100)" name="Clock"/>
-    <comp lib="5" loc="(410,210)" name="Button">
-      <a name="color" val="#4e96ff"/>
-      <a name="label" val="+"/>
-      <a name="labelloc" val="center"/>
-    </comp>
-    <comp lib="6" loc="(140,230)" name="Text"/>
     <comp lib="5" loc="(470,180)" name="Button">
       <a name="color" val="#4e96ff"/>
       <a name="label" val=")"/>
       <a name="labelloc" val="center"/>
     </comp>
-    <comp loc="(200,140)" name="AnalizadorTeclado"/>
-    <comp lib="5" loc="(350,180)" name="Button">
-      <a name="color" val="#ff5443"/>
-      <a name="label" val="3"/>
-      <a name="labelloc" val="center"/>
-    </comp>
-    <comp lib="5" loc="(350,270)" name="Button">
+    <comp lib="5" loc="(410,270)" name="Button">
       <a name="color" val="#4e96ff"/>
-      <a name="label" val="="/>
+      <a name="label" val="!"/>
       <a name="labelloc" val="center"/>
     </comp>
-    <comp lib="5" loc="(270,270)" name="Button">
-      <a name="color" val="#ff0c19"/>
-      <a name="label" val="AC"/>
+    <comp lib="5" loc="(410,180)" name="Button">
+      <a name="color" val="#4e96ff"/>
+      <a name="label" val="("/>
       <a name="labelloc" val="center"/>
-      <a name="labelfont" val="SansSerif plain 11"/>
     </comp>
-    <comp loc="(300,80)" name="MemoriaInstrucciones"/>
+    <comp lib="5" loc="(410,240)" name="Button">
+      <a name="color" val="#4e96f0"/>
+      <a name="label" val="x"/>
+      <a name="labelloc" val="center"/>
+    </comp>
+    <comp lib="5" loc="(260,110)" name="TTY">
+      <a name="rows" val="1"/>
+      <a name="cols" val="30"/>
+    </comp>
+    <comp lib="5" loc="(310,240)" name="Button">
+      <a name="color" val="#ff5443"/>
+      <a name="label" val="8"/>
+      <a name="labelloc" val="center"/>
+    </comp>
+    <comp lib="0" loc="(400,60)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="7"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="5" loc="(470,270)" name="Button">
+      <a name="color" val="#4e96ff"/>
+      <a name="label" val="x^y"/>
+      <a name="labelloc" val="center"/>
+      <a name="labelfont" val="SansSerif plain 10"/>
+    </comp>
     <comp lib="5" loc="(470,210)" name="Button">
       <a name="color" val="#4e96ff"/>
       <a name="label" val="-"/>
       <a name="labelloc" val="center"/>
-    </comp>
-    <comp lib="5" loc="(250,150)" name="TTY">
-      <a name="rows" val="1"/>
-      <a name="cols" val="30"/>
     </comp>
   </circuit>
   <circuit name="AnalizadorTeclado">
@@ -308,35 +329,16 @@ This file is intended to be loaded by Logisim http://logisim.altervista.org
       <a name="fanout" val="7"/>
       <a name="incoming" val="7"/>
     </comp>
+    <comp lib="0" loc="(500,290)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="7"/>
+      <a name="label" val="Salida binario"/>
+    </comp>
     <comp lib="0" loc="(180,170)" name="Pin">
       <a name="width" val="19"/>
       <a name="tristate" val="false"/>
       <a name="label" val="Entrada"/>
-    </comp>
-    <comp lib="1" loc="(520,350)" name="OR Gate">
-      <a name="inputs" val="7"/>
-    </comp>
-    <comp lib="0" loc="(500,170)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="width" val="7"/>
-      <a name="label" val="Salida ASCII"/>
-    </comp>
-    <comp lib="4" loc="(380,170)" name="ROM">
-      <a name="addrWidth" val="19"/>
-      <a name="dataWidth" val="7"/>
-      <a name="contents">addr/data: 19 7
-0 31 32 0 33 0 0 0
-34 7*0 35 15*0 36 31*0 37 63*0
-38 127*0 39 255*0 30 511*0 3d 1023*0
-21 2047*0 2a 4095*0 2b 8191*0 28 16383*0
-5e 32767*0 25 65535*0 2d 131071*0 29
-</a>
-    </comp>
-    <comp lib="0" loc="(550,350)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="labelloc" val="east"/>
     </comp>
     <comp lib="4" loc="(370,290)" name="ROM">
       <a name="addrWidth" val="19"/>
@@ -349,11 +351,30 @@ This file is intended to be loaded by Logisim http://logisim.altervista.org
 25 65535*0 2d 131071*0 29
 </a>
     </comp>
-    <comp lib="0" loc="(500,290)" name="Pin">
+    <comp lib="0" loc="(500,170)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="width" val="7"/>
-      <a name="label" val="Salida binario"/>
+      <a name="label" val="Salida ASCII"/>
+    </comp>
+    <comp lib="0" loc="(550,350)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="1" loc="(520,350)" name="OR Gate">
+      <a name="inputs" val="7"/>
+    </comp>
+    <comp lib="4" loc="(380,170)" name="ROM">
+      <a name="addrWidth" val="19"/>
+      <a name="dataWidth" val="7"/>
+      <a name="contents">addr/data: 19 7
+0 31 32 0 33 0 0 0
+34 7*0 35 15*0 36 31*0 37 63*0
+38 127*0 39 255*0 30 511*0 3d 1023*0
+21 2047*0 2a 4095*0 2b 8191*0 28 16383*0
+5e 32767*0 25 65535*0 2d 131071*0 29
+</a>
     </comp>
   </circuit>
   <circuit name="Potenciador">
@@ -430,18 +451,33 @@ This file is intended to be loaded by Logisim http://logisim.altervista.org
       <a name="tristate" val="false"/>
       <a name="label" val="Base"/>
     </comp>
-    <comp lib="3" loc="(360,350)" name="Comparator">
+    <comp lib="1" loc="(260,130)" name="NOT Gate">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(140,200)" name="Pin">
       <a name="width" val="16"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Exponente"/>
+    </comp>
+    <comp lib="4" loc="(400,270)" name="Register">
+      <a name="width" val="1"/>
     </comp>
     <comp lib="0" loc="(270,360)" name="Constant">
       <a name="width" val="16"/>
       <a name="value" val="0x0"/>
     </comp>
-    <comp lib="4" loc="(250,200)" name="Register">
+    <comp lib="4" loc="(340,130)" name="Register">
       <a name="width" val="16"/>
     </comp>
-    <comp lib="3" loc="(450,160)" name="Multiplier">
+    <comp lib="4" loc="(250,270)" name="Counter">
       <a name="width" val="16"/>
+      <a name="max" val="0xffff"/>
+    </comp>
+    <comp lib="3" loc="(360,350)" name="Comparator">
+      <a name="width" val="16"/>
+    </comp>
+    <comp lib="6" loc="(234,243)" name="Text">
+      <a name="text" val="Contador"/>
     </comp>
     <comp lib="0" loc="(580,160)" name="Pin">
       <a name="facing" val="west"/>
@@ -450,39 +486,24 @@ This file is intended to be loaded by Logisim http://logisim.altervista.org
       <a name="tristate" val="false"/>
       <a name="label" val="Salida"/>
     </comp>
-    <comp lib="0" loc="(140,200)" name="Pin">
+    <comp lib="3" loc="(350,240)" name="Comparator">
       <a name="width" val="16"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="Exponente"/>
-    </comp>
-    <comp lib="4" loc="(340,130)" name="Register">
-      <a name="width" val="16"/>
-    </comp>
-    <comp lib="2" loc="(280,100)" name="Multiplexer">
-      <a name="width" val="16"/>
-      <a name="enable" val="false"/>
     </comp>
     <comp lib="0" loc="(140,260)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="Reloj"/>
     </comp>
-    <comp lib="6" loc="(234,243)" name="Text">
-      <a name="text" val="Contador"/>
-    </comp>
-    <comp lib="1" loc="(260,130)" name="NOT Gate">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="3" loc="(350,240)" name="Comparator">
+    <comp lib="2" loc="(280,100)" name="Multiplexer">
       <a name="width" val="16"/>
-    </comp>
-    <comp lib="4" loc="(250,270)" name="Counter">
-      <a name="width" val="16"/>
-      <a name="max" val="0xffff"/>
-    </comp>
-    <comp lib="4" loc="(400,270)" name="Register">
-      <a name="width" val="1"/>
+      <a name="enable" val="false"/>
     </comp>
     <comp lib="4" loc="(550,160)" name="Register">
+      <a name="width" val="16"/>
+    </comp>
+    <comp lib="4" loc="(250,200)" name="Register">
+      <a name="width" val="16"/>
+    </comp>
+    <comp lib="3" loc="(450,160)" name="Multiplier">
       <a name="width" val="16"/>
     </comp>
   </circuit>
@@ -494,12 +515,8 @@ This file is intended to be loaded by Logisim http://logisim.altervista.org
     <a name="clabelcolor" val="#000000"/>
     <wire from="(190,200)" to="(190,230)"/>
     <wire from="(210,200)" to="(210,260)"/>
-    <wire from="(110,260)" to="(150,260)"/>
-    <wire from="(110,230)" to="(110,260)"/>
-    <wire from="(110,230)" to="(190,230)"/>
     <wire from="(100,160)" to="(120,160)"/>
     <wire from="(80,180)" to="(80,230)"/>
-    <wire from="(80,230)" to="(110,230)"/>
     <wire from="(40,230)" to="(80,230)"/>
     <wire from="(310,100)" to="(310,120)"/>
     <wire from="(210,260)" to="(300,260)"/>
@@ -513,17 +530,37 @@ This file is intended to be loaded by Logisim http://logisim.altervista.org
     <wire from="(310,200)" to="(310,210)"/>
     <wire from="(310,160)" to="(310,180)"/>
     <wire from="(90,180)" to="(90,300)"/>
-    <wire from="(90,300)" to="(150,300)"/>
-    <wire from="(80,300)" to="(90,300)"/>
     <wire from="(90,100)" to="(310,100)"/>
-    <comp lib="4" loc="(210,260)" name="D Flip-Flop"/>
-    <comp lib="4" loc="(100,160)" name="Counter">
-      <a name="width" val="7"/>
-      <a name="max" val="0x7f"/>
+    <wire from="(70,300)" to="(90,300)"/>
+    <wire from="(90,300)" to="(130,300)"/>
+    <wire from="(130,260)" to="(150,260)"/>
+    <wire from="(130,260)" to="(130,300)"/>
+    <wire from="(90,340)" to="(150,340)"/>
+    <wire from="(150,300)" to="(150,340)"/>
+    <wire from="(250,210)" to="(250,240)"/>
+    <wire from="(230,210)" to="(250,210)"/>
+    <wire from="(230,200)" to="(230,210)"/>
+    <wire from="(80,230)" to="(190,230)"/>
+    <comp lib="0" loc="(70,300)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="0-leer 1-escribir"/>
+    </comp>
+    <comp lib="4" loc="(210,260)" name="T Flip-Flop"/>
+    <comp lib="4" loc="(260,160)" name="RAM">
+      <a name="addrWidth" val="7"/>
+      <a name="dataWidth" val="7"/>
+    </comp>
+    <comp lib="0" loc="(250,240)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="Reset mem"/>
     </comp>
     <comp lib="0" loc="(40,230)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="Reloj"/>
+    </comp>
+    <comp lib="4" loc="(100,160)" name="Counter">
+      <a name="width" val="7"/>
+      <a name="max" val="0x7f"/>
     </comp>
     <comp lib="0" loc="(340,210)" name="Pin">
       <a name="facing" val="west"/>
@@ -531,24 +568,17 @@ This file is intended to be loaded by Logisim http://logisim.altervista.org
       <a name="width" val="7"/>
       <a name="label" val="Salida"/>
     </comp>
-    <comp lib="1" loc="(310,200)" name="Controlled Buffer">
-      <a name="facing" val="south"/>
-      <a name="width" val="7"/>
-    </comp>
     <comp lib="0" loc="(90,100)" name="Pin">
       <a name="width" val="7"/>
       <a name="tristate" val="false"/>
       <a name="label" val="Entrada"/>
     </comp>
-    <comp lib="0" loc="(80,300)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="0-leer 1-escribir"/>
-    </comp>
-    <comp lib="4" loc="(260,160)" name="RAM">
-      <a name="addrWidth" val="7"/>
-      <a name="dataWidth" val="7"/>
-    </comp>
+    <comp lib="0" loc="(90,340)" name="Constant"/>
     <comp lib="1" loc="(310,140)" name="Controlled Buffer">
+      <a name="facing" val="south"/>
+      <a name="width" val="7"/>
+    </comp>
+    <comp lib="1" loc="(310,200)" name="Controlled Buffer">
       <a name="facing" val="south"/>
       <a name="width" val="7"/>
     </comp>
