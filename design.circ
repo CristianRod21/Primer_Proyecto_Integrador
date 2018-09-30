@@ -380,13 +380,8 @@ This file is intended to be loaded by Logisim http://logisim.altervista.org
     <wire from="(320,280)" to="(320,340)"/>
     <wire from="(630,150)" to="(660,150)"/>
     <wire from="(1060,300)" to="(1060,360)"/>
-    <wire from="(1110,260)" to="(1120,260)"/>
-    <wire from="(930,260)" to="(970,260)"/>
-    <wire from="(750,220)" to="(750,290)"/>
-    <wire from="(750,290)" to="(830,290)"/>
     <wire from="(790,270)" to="(830,270)"/>
     <wire from="(790,160)" to="(790,270)"/>
-    <wire from="(860,280)" to="(970,280)"/>
     <wire from="(80,310)" to="(170,310)"/>
     <wire from="(700,310)" to="(770,310)"/>
     <wire from="(670,190)" to="(670,300)"/>
@@ -397,11 +392,9 @@ This file is intended to be loaded by Logisim http://logisim.altervista.org
     <wire from="(600,150)" to="(610,150)"/>
     <wire from="(650,320)" to="(670,320)"/>
     <wire from="(650,210)" to="(650,320)"/>
-    <wire from="(720,240)" to="(730,240)"/>
     <wire from="(640,170)" to="(740,170)"/>
     <wire from="(580,230)" to="(580,240)"/>
     <wire from="(620,230)" to="(620,240)"/>
-    <wire from="(620,230)" to="(730,230)"/>
     <wire from="(580,240)" to="(590,240)"/>
     <wire from="(610,240)" to="(620,240)"/>
     <wire from="(600,210)" to="(650,210)"/>
@@ -432,7 +425,12 @@ This file is intended to be loaded by Logisim http://logisim.altervista.org
     <wire from="(770,310)" to="(770,460)"/>
     <wire from="(780,460)" to="(780,470)"/>
     <wire from="(810,480)" to="(1040,480)"/>
+    <wire from="(1110,260)" to="(1120,260)"/>
+    <wire from="(930,260)" to="(970,260)"/>
     <wire from="(1040,300)" to="(1040,480)"/>
+    <wire from="(860,280)" to="(970,280)"/>
+    <wire from="(770,290)" to="(830,290)"/>
+    <wire from="(770,220)" to="(770,290)"/>
     <comp lib="1" loc="(600,200)" name="NOT Gate">
       <a name="facing" val="south"/>
     </comp>
@@ -467,6 +465,10 @@ This file is intended to be loaded by Logisim http://logisim.altervista.org
     <comp lib="0" loc="(740,180)" name="Constant">
       <a name="width" val="4"/>
       <a name="value" val="0x0"/>
+    </comp>
+    <comp lib="0" loc="(710,260)" name="Constant">
+      <a name="width" val="4"/>
+      <a name="value" val="0x3"/>
     </comp>
     <comp lib="3" loc="(370,50)" name="Comparator">
       <a name="width" val="7"/>
@@ -521,7 +523,8 @@ This file is intended to be loaded by Logisim http://logisim.altervista.org
       <a name="width" val="16"/>
       <a name="control" val="left"/>
     </comp>
-    <comp lib="0" loc="(750,220)" name="Splitter">
+    <comp loc="(310,110)" name="decodificadorDeInstrucciones"/>
+    <comp lib="0" loc="(770,220)" name="Splitter">
       <a name="facing" val="west"/>
       <a name="fanout" val="2"/>
       <a name="incoming" val="20"/>
@@ -532,20 +535,19 @@ This file is intended to be loaded by Logisim http://logisim.altervista.org
       <a name="bit5" val="0"/>
       <a name="bit6" val="0"/>
       <a name="bit7" val="0"/>
-      <a name="bit8" val="0"/>
-      <a name="bit9" val="0"/>
-      <a name="bit10" val="0"/>
-      <a name="bit11" val="0"/>
-      <a name="bit12" val="0"/>
-      <a name="bit13" val="0"/>
-      <a name="bit14" val="0"/>
-      <a name="bit15" val="0"/>
+      <a name="bit8" val="1"/>
+      <a name="bit9" val="1"/>
+      <a name="bit10" val="1"/>
+      <a name="bit11" val="1"/>
+      <a name="bit12" val="1"/>
+      <a name="bit13" val="1"/>
+      <a name="bit14" val="1"/>
+      <a name="bit15" val="1"/>
       <a name="bit16" val="1"/>
       <a name="bit17" val="1"/>
       <a name="bit18" val="1"/>
       <a name="bit19" val="1"/>
     </comp>
-    <comp loc="(310,110)" name="decodificadorDeInstrucciones"/>
     <comp lib="1" loc="(200,270)" name="OR Gate">
       <a name="facing" val="north"/>
     </comp>
@@ -587,10 +589,6 @@ This file is intended to be loaded by Logisim http://logisim.altervista.org
       <a name="bit17" val="1"/>
       <a name="bit18" val="1"/>
       <a name="bit19" val="1"/>
-    </comp>
-    <comp lib="0" loc="(720,240)" name="Constant">
-      <a name="width" val="4"/>
-      <a name="value" val="0x3"/>
     </comp>
     <comp lib="1" loc="(810,480)" name="AND Gate"/>
     <comp lib="2" loc="(860,280)" name="Multiplexer">
