@@ -92,7 +92,6 @@ This file is intended to be loaded by Logisim http://logisim.altervista.org
     <wire from="(430,390)" to="(430,400)"/>
     <wire from="(350,450)" to="(470,450)"/>
     <wire from="(290,510)" to="(600,510)"/>
-    <wire from="(270,510)" to="(270,530)"/>
     <wire from="(290,490)" to="(290,510)"/>
     <wire from="(310,470)" to="(310,490)"/>
     <wire from="(330,450)" to="(330,470)"/>
@@ -110,7 +109,6 @@ This file is intended to be loaded by Logisim http://logisim.altervista.org
     <wire from="(400,310)" to="(400,420)"/>
     <wire from="(430,220)" to="(450,220)"/>
     <wire from="(260,410)" to="(470,410)"/>
-    <wire from="(590,330)" to="(620,330)"/>
     <wire from="(600,390)" to="(600,510)"/>
     <wire from="(260,440)" to="(340,440)"/>
     <wire from="(190,140)" to="(640,140)"/>
@@ -136,7 +134,6 @@ This file is intended to be loaded by Logisim http://logisim.altervista.org
     <wire from="(220,300)" to="(290,300)"/>
     <wire from="(360,440)" to="(430,440)"/>
     <wire from="(500,150)" to="(500,220)"/>
-    <wire from="(620,330)" to="(620,530)"/>
     <wire from="(390,200)" to="(450,200)"/>
     <wire from="(340,200)" to="(390,200)"/>
     <wire from="(430,330)" to="(430,340)"/>
@@ -169,7 +166,6 @@ This file is intended to be loaded by Logisim http://logisim.altervista.org
     <wire from="(470,420)" to="(470,450)"/>
     <wire from="(320,480)" to="(550,480)"/>
     <wire from="(220,300)" to="(220,520)"/>
-    <wire from="(270,530)" to="(620,530)"/>
     <wire from="(560,330)" to="(560,490)"/>
     <wire from="(410,310)" to="(620,310)"/>
     <wire from="(320,300)" to="(340,300)"/>
@@ -334,6 +330,9 @@ This file is intended to be loaded by Logisim http://logisim.altervista.org
       <a name="label" val="="/>
       <a name="labelloc" val="center"/>
     </comp>
+    <comp lib="0" loc="(270,510)" name="Constant">
+      <a name="value" val="0x0"/>
+    </comp>
     <comp lib="5" loc="(430,390)" name="Button">
       <a name="color" val="#ff5443"/>
       <a name="label" val="8"/>
@@ -342,11 +341,6 @@ This file is intended to be loaded by Logisim http://logisim.altervista.org
     <comp lib="0" loc="(250,100)" name="Constant">
       <a name="width" val="7"/>
       <a name="value" val="0x0"/>
-    </comp>
-    <comp lib="5" loc="(590,330)" name="Button">
-      <a name="color" val="#4e96ff"/>
-      <a name="label" val="%"/>
-      <a name="labelloc" val="center"/>
     </comp>
     <comp lib="5" loc="(590,360)" name="Button">
       <a name="color" val="#4e96ff"/>
